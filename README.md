@@ -1,8 +1,5 @@
-Proyecto Arduino: Juego de Piedra, Papel o Tijera
-Este proyecto consiste en un juego interactivo de "Piedra, Papel o Tijera" controlado por Arduino, que integra sensores ultrasónicos y servomotores, y es operado desde una aplicación móvil desarrollada en App Inventor. La aplicación se conecta al Arduino mediante Bluetooth (HC-06) para permitir al usuario seleccionar una de las tres opciones del juego: piedra, papel o tijera.
+Juego de Piedra, Papel o Tijera con Arduino
+Este proyecto crea un juego interactivo de "Piedra, Papel o Tijera" usando Arduino, un sensor ultrasónico y servomotores. La interacción se realiza a través de una aplicación móvil desarrollada en App Inventor, que se conecta al Arduino mediante Bluetooth (HC-06). El sistema detecta la mano del jugador y mueve un servomotor para mostrar la opción seleccionada.
 
-El sistema detecta la mano del jugador utilizando un sensor ultrasónico, y luego mueve un servomotor para mostrar la opción seleccionada. Además, la aplicación ofrece botones para que el usuario elija su movimiento, interactuando de manera dinámica con el hardware de Arduino.
-
-Este proyecto fue desarrollado como parte de un curso en la Universidad Blas Pascal y combina conocimientos de electrónica, programación en Arduino, y desarrollo de aplicaciones móviles.
-
+La aplicación permite al usuario elegir su movimiento (piedra, papel o tijera) a través de botones, mientras que el sensor ultrasónico en Arduino detecta la posición de la mano para hacer la selección. Este proyecto combina programación en Arduino, electrónica y desarrollo de aplicaciones móviles, y fue realizado como parte de un curso en la Universidad Blas Pascal.
 
